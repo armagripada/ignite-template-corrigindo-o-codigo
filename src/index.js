@@ -42,7 +42,7 @@ app.post("/repositories", (request, response) => {
   };
   repositories.push(repository);
    
-//igor
+
   return response.status(201).json(repository);
 });
 
